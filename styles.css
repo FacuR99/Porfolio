@@ -1,0 +1,324 @@
+body{
+    background: linear-gradient(black, grey, black);
+    color: white;
+font-family: Helvetica, sans-serif;
+}
+
+
+header{text-align:center;
+    h1{text-decoration:underline;}
+    img{width: 150px; height: 180px;
+        border-radius: 80px;
+    border: 5px solid white;}
+}
+
+
+nav {
+    position: sticky; top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+
+.container {background-color: white;
+    border: 5px solid black;
+    width: 490px;
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.container:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+}
+
+.hijo a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+.hijo a:hover {
+    color: grey;
+}
+
+.separator {
+    color: black;
+}
+
+.cuadradiño{border: 5px solid white;
+    border-radius: 5px;
+    background:url(./imag/pikaso_embed\ \(3\)-photoaidcom-greyscale.png);
+
+    background-repeat: no-repeat;
+   background-size: auto;
+    padding: 100px;
+margin-top: 50px;
+display: block;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.tex p {
+    margin-bottom: 10px; 
+  }
+
+  .tex p:first-letter {
+    font-size: 22px; 
+    font-weight: bold; 
+    color: black; 
+  }
+
+.subi{ background-color: black;
+    width: 120px;
+    
+    border: 5px solid white;
+    border-radius: 5px;
+margin: auto;
+    text-align: center;
+text-decoration:underline;
+transition: transform 0.3s ease-in-out, background-position 0.5s ease-in-out;
+
+}
+
+.subi:hover {
+    transform: scale(1.05);
+    background-position: center;
+}
+
+
+.tex{
+     text-justify: auto; 
+    display: none;
+    border: 5px solid black; 
+    border-radius: 20px; 
+    padding: 30px; 
+    width: 75%; 
+    margin: 30px auto; 
+    margin-top: 70px;
+    background: linear-gradient(grey,white,grey);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px; 
+    line-height: 1.6; 
+    color: #333; 
+    
+}
+
+
+#check{display: none;}
+#check:checked + .tex {display: block;}
+
+#cation{display: none;}
+#cation:checked + .edu {display: block;}
+
+#cation2{display: none;}
+#cation2:checked + .rap{display: block;}
+
+
+
+
+.ll{ background:url(./imag/pikaso_embed\ \(4\)-photoaidcom-greyscale.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 100px;
+    margin-top: 50px;
+    display: block;
+    
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    .suba{background-color: black;
+        width: 150px;
+    padding: 15px;
+    
+        border: 5px solid white;
+        border-radius: 5px;
+    margin:auto;
+        text-align: center;
+    text-decoration:underline;
+    transition: transform 0.3s ease-in-out, background-position 0.5s ease-in-out;
+    }
+    .suba:hover {
+        transform: scale(1.05);
+        background-position: center;
+    }
+
+
+.edu{
+    justify-content: center;
+    display: none;
+    border: 5px solid black; 
+    border-radius: 20px; 
+    padding: 30px; 
+    width: 75%; 
+    margin: 30px auto; 
+    margin-top: 70px;
+    background: linear-gradient(grey,white,grey);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px; 
+    line-height: 1.6; 
+    color: #333; 
+}
+
+.h3{text-decoration:underline;}
+
+.ee{background:url(./imag/pikaso_embed\ \(5\)-photoaidcom-greyscale.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+     border: 5px solid white;
+     border-radius: 5px;
+     padding: 100px;
+     margin-top: 50px;
+     display: block;
+     justify-content: center;
+     align-items: center; 
+     
+    }
+
+
+.rap{display: flex;
+    display: none;
+    text-align: center;
+    border: 5px solid black; 
+    border-radius: 20px; 
+    padding: 30px; 
+    width: 75%; 
+    margin: 30px auto; 
+    margin-top: 70px;
+    background: linear-gradient(grey,white,grey);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px; 
+    line-height: 1.6; 
+    color: #333; }
+
+
+.sub{ 
+    text-align: center;
+    margin-top: 50px;
+    text-decoration:underline;
+   
+}
+
+
+.cont{text-align: center;
+text-decoration: underline;
+}
+
+
+form{display: flex;
+flex-direction: column;
+width: 400px;
+gap: 15px;                   
+margin: 20px auto;      
+padding: 20px;
+border: 5px solid white;
+border-radius: 30px;
+text-decoration: underline;
+margin-bottom: 50px;
+transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+form:hover {
+    border-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+button{display: flex;
+    justify-content: center;
+    width: 100px;
+    margin: 10px auto; 
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+button:hover {
+
+    transform: scale(1.1);
+}
+
+#habilidades {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#habilidades h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+.hab {
+    display: flex;
+    flex-wrap: wrap;          
+    justify-content: center;  
+    align-items: center;     
+    gap: 20px;                
+    padding: 20px;            
+    height: 100%;            
+    transition: gap 0.3s ease-in-out;
+
+}
+
+
+.cua {
+    display: flex;                
+    flex-direction: column;       
+    align-items: center;         
+    justify-content: center;      
+    flex: 0 1 calc(33.333% - 20px);  
+    box-sizing: border-box;       
+    padding: 20px;
+    border: 3px solid #ccc;       
+    border-radius: 20px;
+    background-color: #0a0a0a;    
+    text-align: center;           
+    color: white;                 
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.cua:hover {
+    transform: scale(1.1);
+    background-color: #222;
+}
+
+.cua img {
+    max-width: 100px; 
+    margin-bottom: 20px;    
+    transition: transform 0.3s ease-in-out;  
+}
+
+
+.habili{text-decoration: underline;}
+
+
+.pie{display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.copy{text-align: center;
+font-size: small;}
+
+.sep{color: white;
+}
